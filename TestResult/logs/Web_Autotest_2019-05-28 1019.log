@@ -1,0 +1,29 @@
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', '//input[@id="name"]')
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//input[@id="name"]')
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-input_text-[line:56]None：在元素('xpath', '//input[@id="name"]')中输入文本：auto_test
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//input[@id="inputPassword"]')
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-input_text-[line:56]None：在元素('xpath', '//input[@id="inputPassword"]')中输入文本：auto_test
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//a[@id="login"]')
+Tue, 28 May 2019 10:19:56-INFO-BasePage.py-click_element-[line:83]None:元素：('xpath', '//a[@id="login"]')点击事件
+Tue, 28 May 2019 10:19:59-INFO-BasePage.py-switch_alert-[line:174]未弹出alert
+Tue, 28 May 2019 10:20:01-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', '//span[text()="数据源"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.14：以秒为单位
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//span[text()="数据源"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-click_element-[line:83]None:元素：('xpath', '//span[text()="数据源"]')点击事件
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', '//span[text()="添加"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//span[text()="添加"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-click_element-[line:83]None:元素：('xpath', '//span[text()="添加"]')点击事件
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', '//span[@id="dataTree_1_switch"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//span[@id="dataTree_1_switch"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-click_element-[line:83]None:元素：('xpath', '//span[@id="dataTree_1_switch"]')点击事件
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', ' //span[text()="MySQL"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.01：以秒为单位
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', ' //span[text()="MySQL"]')
+Tue, 28 May 2019 10:20:02-INFO-BasePage.py-click_element-[line:83]None:元素：('xpath', ' //span[text()="MySQL"]')点击事件
+Tue, 28 May 2019 10:20:03-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', '//a[@id="btn-db-type"]')
+Tue, 28 May 2019 10:20:03-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.01：以秒为单位
+Tue, 28 May 2019 10:20:03-INFO-BasePage.py-get_Element-[line:43]None：查找元素：('xpath', '//a[@id="btn-db-type"]')
+Tue, 28 May 2019 10:20:03-INFO-BasePage.py-click_element-[line:83]None:元素：('xpath', '//a[@id="btn-db-type"]')点击事件

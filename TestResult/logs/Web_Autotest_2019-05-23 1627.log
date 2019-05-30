@@ -1,0 +1,26 @@
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-wait_eleVisible-[line:29]None：等待元素可见：('xpath', '//input[@id="name"]')
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-wait_eleVisible-[line:34]等待时长0.02：以秒为单位
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//input[@id="name"]')
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-input_text-[line:55]None：在元素('xpath', '//input[@id="name"]')中输入文本：admin
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//input[@id="inputPassword"]')
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-input_text-[line:55]None：在元素('xpath', '//input[@id="inputPassword"]')中输入文本：12a3
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//a[@id="login"]')
+Thu, 23 May 2019 16:27:10-INFO-BasePage.py-click_element-[line:70]None:元素：('xpath', '//a[@id="login"]')点击事件
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-wait_eleVisible-[line:29]None：等待元素可见：('xpath', '//input[@id="name"]')
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-wait_eleVisible-[line:34]等待时长0.02：以秒为单位
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//input[@id="name"]')
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-input_text-[line:55]None：在元素('xpath', '//input[@id="name"]')中输入文本：abac
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//input[@id="inputPassword"]')
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-input_text-[line:55]None：在元素('xpath', '//input[@id="inputPassword"]')中输入文本：123a4
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//a[@id="login"]')
+Thu, 23 May 2019 16:27:17-INFO-BasePage.py-click_element-[line:70]None:元素：('xpath', '//a[@id="login"]')点击事件
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-wait_eleVisible-[line:29]None：等待元素可见：('xpath', '//input[@id="name"]')
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-wait_eleVisible-[line:34]等待时长0.03：以秒为单位
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//input[@id="name"]')
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-input_text-[line:55]None：在元素('xpath', '//input[@id="name"]')中输入文本：auto_test
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//input[@id="inputPassword"]')
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-input_text-[line:55]None：在元素('xpath', '//input[@id="inputPassword"]')中输入文本：auto_test
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-get_Element-[line:42]None：查找元素：('xpath', '//a[@id="login"]')
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-click_element-[line:70]None:元素：('xpath', '//a[@id="login"]')点击事件
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-switch_alert-[line:153]alert切换操作
+Thu, 23 May 2019 16:27:25-INFO-BasePage.py-switch_alert-[line:157]切换成功

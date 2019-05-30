@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="5" time="85.898"><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="17" name="test_login_1_error[data0]" time="6.598"><system-out>============session级别的会话=====开始=====
+============整个测试类只执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Fri, 24 May 2019 18:09:57-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：admin
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：12a3
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-switch_alert-[line:169]alert出现，内容为：用户名或密码错误!
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-switch_alert-[line:171]alert已经关闭
+</system-err></testcase><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="17" name="test_login_1_error[data1]" time="0.208"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Fri, 24 May 2019 18:09:57-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.01：以秒为单位
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：abac
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123a4
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-switch_alert-[line:169]alert出现，内容为：用户名或密码错误!
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-switch_alert-[line:171]alert已经关闭
+</system-err></testcase><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="26" name="test_login_2_sucess" time="6.644"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============整个测试类只执行一次的后置============
+</system-out><system-err>Fri, 24 May 2019 18:09:57-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.01：以秒为单位
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：auto_test
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Fri, 24 May 2019 18:09:57-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Fri, 24 May 2019 18:10:01-INFO-BasePage.py-switch_alert-[line:174]未弹出alert
+Fri, 24 May 2019 18:10:01-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-user user&quot;]&apos;)
+Fri, 24 May 2019 18:10:01-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.11：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_2_home.TestHome" file="TestCase\test_2_home.py" line="16" name="test_home_to_data_source" time="17.222"><system-out>============整个测试类只执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Fri, 24 May 2019 18:10:10-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：auto_test
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Fri, 24 May 2019 18:10:10-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Fri, 24 May 2019 18:10:14-INFO-BasePage.py-switch_alert-[line:174]未弹出alert
+Fri, 24 May 2019 18:10:19-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;业务管理&quot;]&apos;)
+Fri, 24 May 2019 18:10:19-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Fri, 24 May 2019 18:10:19-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;业务管理&quot;]&apos;)
+Fri, 24 May 2019 18:10:19-INFO-BasePage.py-hover_element-[line:69]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;业务管理&quot;]&apos;)鼠标悬停事件
+Fri, 24 May 2019 18:10:19-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源管理&quot;]&apos;)
+Fri, 24 May 2019 18:10:20-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.03：以秒为单位
+Fri, 24 May 2019 18:10:20-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源管理&quot;]&apos;)
+Fri, 24 May 2019 18:10:20-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源管理&quot;]&apos;)点击事件
+Fri, 24 May 2019 18:10:20-INFO-BasePage.py-switch_iframe-[line:146]iframe切换操作：
+Fri, 24 May 2019 18:10:21-INFO-BasePage.py-switch_iframe-[line:150]切换成功
+Fri, 24 May 2019 18:10:21-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//ol[@class=&quot;breadcrumb bc-3&quot;]//*[text()=&quot;数据源管理&quot;]&apos;)
+Fri, 24 May 2019 18:10:21-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.04：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_2_home.TestHome" file="TestCase\test_2_home.py" line="24" name="test_home_jump_designer" time="52.933"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============整个测试类只执行一次的后置============
+============session级别的会话=====结束=====
+============session级别的会话=====开始=====
+============整个测试类只执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============整个测试类只执行一次的后置============
+============session级别的会话=====结束=====
+</system-out><system-err>Fri, 24 May 2019 18:10:26-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;作业设计&quot;]&apos;)
+Fri, 24 May 2019 18:10:26-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.01：以秒为单位
+Fri, 24 May 2019 18:10:26-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;作业设计&quot;]&apos;)
+Fri, 24 May 2019 18:10:26-INFO-BasePage.py-hover_element-[line:69]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;作业设计&quot;]&apos;)鼠标悬停事件
+Fri, 24 May 2019 18:10:26-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)
+Fri, 24 May 2019 18:10:57-ERROR-BasePage.py-wait_eleVisible-[line:37]等待元素可见失败。
+Fri, 24 May 2019 18:10:57-INFO-BasePage.py-save_webImgs-[line:140]截屏成功,图片路径为D:\YOYO\auto_web_echo_v1\TestResult\imgs/None_2019-05-24-18-10-57.png
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：auto_test
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Fri, 24 May 2019 18:11:05-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Fri, 24 May 2019 18:11:08-INFO-BasePage.py-switch_alert-[line:174]未弹出alert
+Fri, 24 May 2019 18:11:13-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;作业设计&quot;]&apos;)
+Fri, 24 May 2019 18:11:13-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
+Fri, 24 May 2019 18:11:13-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;作业设计&quot;]&apos;)
+Fri, 24 May 2019 18:11:13-INFO-BasePage.py-hover_element-[line:69]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;作业设计&quot;]&apos;)鼠标悬停事件
+Fri, 24 May 2019 18:11:14-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)
+Fri, 24 May 2019 18:11:15-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.03：以秒为单位
+Fri, 24 May 2019 18:11:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)
+Fri, 24 May 2019 18:11:15-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)点击事件
+</system-err></testcase></testsuite>

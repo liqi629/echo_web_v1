@@ -1,0 +1,3 @@
+Tue, 28 May 2019 11:01:21-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：('xpath', '//input[@id="name"]')
+Tue, 28 May 2019 11:01:21-ERROR-BasePage.py-wait_eleVisible-[line:37]等待元素可见失败。
+Tue, 28 May 2019 11:01:22-ERROR-BasePage.py-save_webImgs-[line:142]截屏失败
