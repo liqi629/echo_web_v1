@@ -22,11 +22,13 @@ def set_class():
     global driver
     print("============整个测试类只执行一次的前置======================")
     # 打开浏览器
-    # driver = webdriver.Firefox()
-    #w无头模式
-    options = webdriver.FirefoxOptions()
-    options.add_argument('-headless')
-    driver = webdriver.Firefox(options=options)
+    driver = webdriver.Chrome()
+    #谷歌无头模式
+    # options = webdriver.ChromeOptions()
+    # options.add_argument('--headless')
+    # options.add_argument('--disable-gpu')
+    # options.add_argument('--no-sandbox')
+    # driver = webdriver.Chrome(chrome_options=options)
     # 设置全屏
     driver.maximize_window()
     lp = LoginPage(driver)
@@ -41,10 +43,16 @@ def set_class_home():
     global driver
     print("============整个测试类只执行一次的前置======================")
     # 打开浏览器
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
+    # 谷歌无头模式
+    # options = webdriver.ChromeOptions()
+    # options.add_argument('--headless')
+    # options.add_argument('--disable-gpu')
+    # options.add_argument('--no-sandbox')
+    # driver = webdriver.Chrome(chrome_options=options)
 
     # 设置全屏
-    # driver.maximize_window()
+    driver.maximize_window()
     lp = LoginPage(driver)
     # 打开目标网页
     driver.get(CD.login_url)
