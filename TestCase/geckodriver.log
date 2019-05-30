@@ -11026,3 +11026,42 @@ JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js
 [GPU 13368
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1559189146170	geckodriver	INFO	geckodriver 0.20.1
+1559189146180	geckodriver	INFO	Listening on 127.0.0.1:64932
+1559189149218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\mrl\\AppData\\Local\\Temp\\rust_mozprofile.wvkerUy5BOYa"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+1559189150683	Marionette	INFO	Listening on port 64940
+1559189150740	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Parent 21116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2148JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/page/monitor/test/js/ht.js, line 13: Error: WebGL warning: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Parent 21116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14316, C[Parent 21116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16604, Chrome_ChildThre*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

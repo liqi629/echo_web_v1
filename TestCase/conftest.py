@@ -22,8 +22,11 @@ def set_class():
     global driver
     print("============整个测试类只执行一次的前置======================")
     # 打开浏览器
-    driver = webdriver.Firefox()
-
+    # driver = webdriver.Firefox()
+    #w无头模式
+    options = webdriver.FirefoxOptions()
+    options.add_argument('-headless')
+    driver = webdriver.Firefox(options=options)
     # 设置全屏
     driver.maximize_window()
     lp = LoginPage(driver)
