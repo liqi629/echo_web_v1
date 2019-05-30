@@ -2,7 +2,7 @@
 # @Time     : 2019/5/23 17:13
 # @Author   : l7
 # @Email    :liqi_629@163.com
-# @File     : test_2_home.py
+# @File     : st.py
 # @Software : PyCharm
 from PageObjects.home_page import HomePage as hp
 import pytest
@@ -17,10 +17,11 @@ class TestHome:
         set_class_home[0].switch_to.default_content()
         assert msg==True
     #页面跳转——设计器
-    @pytest.mark.flaky(reruns=5, reruns_delay=1)
+    # @pytest.mark.flaky(reruns=5, reruns_delay=1)
     def test_home_jump_designer(self,set_class_home):
         #操作步骤
         hp(set_class_home[0]).into_designer()
+
 
 
 

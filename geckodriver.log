@@ -11588,3 +11588,64 @@ JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js
 [GPU 5656, C
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1559197235475	geckodriver	INFO	geckodriver 0.20.1
+1559197235483	geckodriver	INFO	Listening on 127.0.0.1:62259
+1559197238513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\mrl\\AppData\\Local\\Temp\\rust_mozprofile.G9JMpGiyvYjN"
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+1559197240157	Marionette	INFO	Listening on port 62267
+1559197240522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 24432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24432JavaScript error: http://172.16.12.28:18080/echod_manager/V2/assets/js/design_tree.js, line 423: ReferenceError: echoGraph is not defined
+[Child 22620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 25728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 25272
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559197249809	geckodriver	INFO	geckodriver 0.20.1
+1559197249817	geckodriver	INFO	Listening on 127.0.0.1:62340
+1559197252843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\mrl\\AppData\\Local\\Temp\\rust_mozprofile.nNi6SR1kiZFE"
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mrl\AppData\Local\openvr\openvrpaths.vrpath
+1559197254646	Marionette	INFO	Listening on port 62348
+1559197254875	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 3854: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4386: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4600: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 3854: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4386: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4600: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 3854: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4386: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4600: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 3854: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4386: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4600: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/neon/assets/js/bootstrap-tagsinput.min.js, line 6: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 3854: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4386: unreachable code after return statement
+JavaScript warning: http://172.16.12.28:18080/echod_manager/V2/assets/js/page-js/designer.js, line 4600: unreachable code after return statement
+[Child 25064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25064, Chrome[Child 25936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 24812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 24676
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

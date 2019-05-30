@@ -11,11 +11,11 @@ class HomePageLocator:
     #推出按钮
     logout_button = (By.XPATH,'//a[@class="btn-logout"]')
     #作业设计
-    job_design=(By.XPATH,'//span[text()="作业设计"]')
+    job_design=(By.XPATH,'//i[@class="entypo-layout"]')
     #设计器
     designer=(By.XPATH,'//span[text()="设计器"]')
-    #业务管理
-    business_management = (By.XPATH,'//span[text()="业务管理"]')
+    #导航业务管理图标
+    business_management = (By.XPATH,'//i[@class="entypo-database"]')
     #子菜单数据源管理
     data_source_manager = (By.XPATH,'//span[text()="数据源管理"]')
     #页面标题数据源管理

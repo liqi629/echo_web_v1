@@ -43,9 +43,13 @@ class DesignerPage(BasePage):
         #鼠标悬浮
         self.hover_element(loc.job_list_new)
         #点击删除按钮
+        self.wait_eleVisible(loc.delete_job_button)
         self.click_element(loc.delete_job_button)
+        time.sleep(2)
         #点击dialog中的删除
+        self.wait_eleVisible(loc.dialog_delete_button)
         self.click_element(loc.dialog_delete_button)
+        time.sleep(2)
     #判断新建的作业是否被删除
     def is_delete_job(self):
         try:
@@ -70,6 +74,7 @@ class DesignerPage(BasePage):
         self.wait_eleVisible(loc.MySQL)
         self.click_element(loc.MySQL)
         #点击确定按钮
+
         self.wait_eleVisible(loc.db_button)
         self.click_element(loc.db_button)
 
@@ -115,7 +120,7 @@ class DesignerPage(BasePage):
         #继续点击下一步
         self.wait_eleVisible(loc.next_step)
         self.click_element(loc.next_step)
-        time.sleep(0.5)
+        time.sleep(1)
         #点击确定按钮
         self.wait_eleVisible(loc.confirm_button)
         self.click_element(loc.confirm_button)

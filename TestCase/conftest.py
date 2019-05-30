@@ -22,13 +22,17 @@ def set_class():
     global driver
     print("============整个测试类只执行一次的前置======================")
     # 打开浏览器
-    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome()
     #谷歌无头模式
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # options.add_argument('--disable-gpu')
-    # options.add_argument('--no-sandbox')
-    # driver = webdriver.Chrome(chrome_options=options)
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    driver = webdriver.Chrome(chrome_options=options)
+    #火狐无头模式
+    # options = webdriver.FirefoxOptions()
+    # options.add_argument('-headless')
+    # driver = webdriver.Firefox(options=options)
     # 设置全屏
     driver.maximize_window()
     lp = LoginPage(driver)
@@ -43,14 +47,17 @@ def set_class_home():
     global driver
     print("============整个测试类只执行一次的前置======================")
     # 打开浏览器
-    driver = webdriver.Chrome()
-    # 谷歌无头模式
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # options.add_argument('--disable-gpu')
-    # options.add_argument('--no-sandbox')
-    # driver = webdriver.Chrome(chrome_options=options)
-
+    # driver = webdriver.Chrome()
+    # #谷歌无头模式
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')#谷歌文档提到需要加上这个属性来规避bug
+    options.add_argument('--no-sandbox')
+    driver = webdriver.Chrome(chrome_options=options)
+    #火狐无头模式
+    # options = webdriver.FirefoxOptions()
+    # options.add_argument('-headless')
+    # driver = webdriver.Firefox(options=options)
     # 设置全屏
     driver.maximize_window()
     lp = LoginPage(driver)

@@ -16,7 +16,7 @@ class DesignerPageLocator:
     job_toast = (By.XPATH, '//div[@class="toast-message"]')
     #新建完成的作业，列表中的定位 //span[text()="auto_test_2"]
     job_list_new = (By.XPATH, ' //span[text()="auto_test_2222"]')
-    # 编辑名称后的作业，列表中的定位 //span[text()="auto_test_2"]
+    # 编辑名称后的作业，列表中的定位 //span[text()="auto_test_3"]
     job_list_new_1 = (By.XPATH, ' //span[text()="auto_test_2223"]')
     #鼠标悬浮新建作业，删除按钮//span[text()="删除"][1]
     delete_job_button = (By.XPATH, '//span[text()="删除"][1]')
