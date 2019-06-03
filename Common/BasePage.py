@@ -18,8 +18,9 @@ import time
 class BasePage:
     def __init__(self,driver):#必须外部传入driver  同一个driver经历多个页面
         self.driver=driver
+
     #等待元素可见
-    def wait_eleVisible(self,loc,timeout=30,poll_frequency=1,model=None):
+    def wait_eleVisible(self,loc,timeout=30,poll_frequency=0.5,model=None):
         '''
         :param loc: 元素定位表达式。元素类型，表达方式（元素定位类型，元素定位方法）
         :param timeout: 等待超时时间上限

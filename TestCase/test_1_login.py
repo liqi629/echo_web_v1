@@ -15,13 +15,11 @@ import pytest
 @pytest.mark.usefixtures("case_login")#
 class TestLogin:
     #异常场景：密码错误、用户名错误
-    @pytest.mark.smoke#用例标记
     @pytest.mark.parametrize("data",ld.wrong_data)#测试数据分离，有几组数据，运行几次
     def test_login_1_error(self,data,set_class):
         #操作步骤：登录——处理alert
         set_class[1].login(data["user"],data["pwd"])
         msg = set_class[1].switch_alert()
-
         assert data["msg"]==msg
     # 正常场景：登录成功
     @pytest.mark.smoke#用例标记

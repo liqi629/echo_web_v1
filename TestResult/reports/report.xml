@@ -1,178 +1,367 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="8" time="40.983"><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="17" name="test_login_1_error[data0]" time="4.951"><system-out>============session级别的会话=====开始=====================
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="14" time="78.368"><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="17" name="test_login_1_error[data0]" time="4.836"><system-out>============session级别的会话=====开始=====================
 ============整个测试类只执行一次的前置======================
 ============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
-</system-out><system-err>Thu, 30 May 2019 18:08:15-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：admin
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：12a3
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-switch_alert-[line:172]alert出现，内容为：用户名或密码错误!
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-switch_alert-[line:174]alert已经关闭
-</system-err></testcase><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="17" name="test_login_1_error[data1]" time="0.221"><system-out>============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：admin
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：12a3
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-switch_alert-[line:173]alert出现，内容为：用户名或密码错误!
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-switch_alert-[line:175]alert已经关闭
+</system-err></testcase><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="17" name="test_login_1_error[data1]" time="0.210"><system-out>============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
-</system-out><system-err>Thu, 30 May 2019 18:08:15-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.04：以秒为单位
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：abac
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123a4
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-switch_alert-[line:172]alert出现，内容为：用户名或密码错误!
-Thu, 30 May 2019 18:08:15-INFO-BasePage.py-switch_alert-[line:174]alert已经关闭
-</system-err></testcase><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="26" name="test_login_2_sucess" time="5.944"><system-out>============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：abac
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123a4
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:32-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-switch_alert-[line:173]alert出现，内容为：用户名或密码错误!
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-switch_alert-[line:175]alert已经关闭
+</system-err></testcase><testcase classname="TestCase.test_1_login.TestLogin" file="TestCase\test_1_login.py" line="24" name="test_login_2_sucess" time="6.947"><system-out>============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
 ============整个测试类只执行一次的后置======================
-</system-out><system-err>Thu, 30 May 2019 18:08:15-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test_2
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123456
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
-Thu, 30 May 2019 18:08:16-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:19-INFO-BasePage.py-switch_alert-[line:177]未弹出alert
-Thu, 30 May 2019 18:08:19-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-user user&quot;]&apos;)
-Thu, 30 May 2019 18:08:19-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="16" name="test_none_name" time="9.167"><system-out>============整个测试类只执行一次的前置======================
+</system-out><system-err>Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.04：以秒为单位
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test_2
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123456
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:33-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:18:36-INFO-BasePage.py-switch_alert-[line:178]未弹出alert
+Mon, 03 Jun 2019 19:18:36-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-user user&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:36-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.66：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_2_home.TestHome" file="TestCase\test_2_home.py" line="12" name="test_home_1_to_data_source" time="10.125"><system-out>============整个测试类只执行一次的前置======================
 ============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
-</system-out><system-err>Thu, 30 May 2019 18:08:26-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test_2
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123456
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
-Thu, 30 May 2019 18:08:26-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:29-INFO-BasePage.py-switch_alert-[line:177]未弹出alert
-</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="19" name="test_1_add_job" time="2.673"><system-out>============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test_2
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123456
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:44-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:18:47-INFO-BasePage.py-switch_alert-[line:178]未弹出alert
+Mon, 03 Jun 2019 19:18:47-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-database&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:47-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.1：以秒为单位
+Mon, 03 Jun 2019 19:18:47-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-database&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:47-INFO-BasePage.py-hover_element-[line:70]None:元素：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-database&quot;]&apos;)鼠标悬停事件
+Mon, 03 Jun 2019 19:18:47-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源管理&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:48-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.58：以秒为单位
+Mon, 03 Jun 2019 19:18:48-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源管理&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:48-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源管理&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:18:49-INFO-BasePage.py-switch_iframe-[line:147]iframe切换操作：
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-switch_iframe-[line:151]切换成功
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//ol[@class=&quot;breadcrumb bc-3&quot;]//*[text()=&quot;数据源管理&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_2_home.TestHome" file="TestCase\test_2_home.py" line="19" name="test_home_2_jump_designer" time="4.819"><system-out>============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
-</system-out><system-err>Thu, 30 May 2019 18:08:31-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
-Thu, 30 May 2019 18:08:31-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-Thu, 30 May 2019 18:08:31-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
-Thu, 30 May 2019 18:08:31-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:31-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.04：以秒为单位
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-clear_input_text-[line:94]None：清除元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)中输入文本：auto_test_2222
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:32-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
-Thu, 30 May 2019 18:08:33-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.04：以秒为单位
-Thu, 30 May 2019 18:08:33-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
-Thu, 30 May 2019 18:08:33-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:33-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
-Thu, 30 May 2019 18:08:33-INFO-BasePage.py-get_text-[line:107]None:获取元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容
-Thu, 30 May 2019 18:08:33-INFO-BasePage.py-get_text-[line:110]None:元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容为:业务添加成功!
-</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="25" name="test_2_same_name" time="1.568"><system-out>============测试类中每个测试用例都执行一次的前置============
+============整个测试类只执行一次的后置======================
+</system-out><system-err>Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-layout&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-layout&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-hover_element-[line:70]None:元素：(&apos;xpath&apos;, &apos;//i[@class=&quot;entypo-layout&quot;]&apos;)鼠标悬停事件
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;设计器&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:18:50-INFO-BasePage.py-switch_window-[line:200]切换到最新打开的窗口
+Mon, 03 Jun 2019 19:18:51-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)
+Mon, 03 Jun 2019 19:18:52-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长1.06：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="16" name="test_1_none_name" time="12.113"><system-out>============整个测试类只执行一次的前置======================
 ============测试类中每个测试用例都执行一次的前置============
-</system-out><system-err>Thu, 30 May 2019 18:08:34-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
-Thu, 30 May 2019 18:08:34-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:34-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
-Thu, 30 May 2019 18:08:34-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:34-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.03：以秒为单位
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-clear_input_text-[line:94]None：清除元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)中输入文本：auto_test_2222
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_text-[line:107]None:获取元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_text-[line:110]None:元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容为:作业名称重复，请重新修改
-</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="32" name="test_3_add_data_source" time="9.527"><system-out>============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
-</system-out><system-err>Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:35-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.04：以秒为单位
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.05：以秒为单位
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-switch_window-[line:199]切换到最新打开的窗口
-Thu, 30 May 2019 18:08:37-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)
-Thu, 30 May 2019 18:08:38-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长1.03：以秒为单位
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;sourceName&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;sourceName&quot;]&apos;)中输入文本：自动化测试数据源一
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;ip&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;ip&quot;]&apos;)中输入文本：172.16.12.28
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;port&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;port&quot;]&apos;)中输入文本：3306
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;userName&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;userName&quot;]&apos;)中输入文本：root
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;passWord&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;passWord&quot;]&apos;)中输入文本：root
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;dbName&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-input_text-[line:56]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;dbName&quot;]&apos;)中输入文本：echod
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//a[@id=&quot;test-connect&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//a[@id=&quot;test-connect&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
-Thu, 30 May 2019 18:08:39-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:40-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@name=&quot;tableCheckList&quot;][1]&apos;)
-Thu, 30 May 2019 18:08:40-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.03：以秒为单位
-Thu, 30 May 2019 18:08:40-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;tableCheckList&quot;][1]&apos;)
-Thu, 30 May 2019 18:08:40-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;tableCheckList&quot;][1]&apos;)点击事件
-Thu, 30 May 2019 18:08:40-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
-Thu, 30 May 2019 18:08:40-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:41-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
-Thu, 30 May 2019 18:08:41-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:41-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
-Thu, 30 May 2019 18:08:41-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:42-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)
-Thu, 30 May 2019 18:08:42-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:42-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)
-Thu, 30 May 2019 18:08:42-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:43-INFO-BasePage.py-switch_window-[line:204]切换到第一个窗口
-Thu, 30 May 2019 18:08:44-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;自动化测试数据源一&quot;]&apos;)
-Thu, 30 May 2019 18:08:44-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="46" name="test_4_delete_job" time="6.817"><system-out>============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;name&quot;]&apos;)中输入文本：auto_test_2
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;inputPassword&quot;]&apos;)中输入文本：123456
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:01-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;login&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:04-INFO-BasePage.py-switch_alert-[line:178]未弹出alert
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-clear_input_text-[line:95]None：清除元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)中输入文本：
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:06-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-get_text-[line:108]None:获取元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-get_text-[line:111]None:元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容为:业务名称不能为空!
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="21" name="test_2_add_job" time="1.700"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.04：以秒为单位
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:07-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-clear_input_text-[line:95]None：清除元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)中输入文本：auto_test_2222
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.55：以秒为单位
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-get_text-[line:108]None:获取元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容
+Mon, 03 Jun 2019 19:19:08-INFO-BasePage.py-get_text-[line:111]None:元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容为:业务添加成功!
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="27" name="test_3_same_name" time="1.080"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//img[@id=&quot;addBgBac&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-clear_input_text-[line:95]None：清除元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;bisName&quot;]&apos;)中输入文本：auto_test_2222
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btnBusinessAdd&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_text-[line:108]None:获取元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容
+Mon, 03 Jun 2019 19:19:09-INFO-BasePage.py-get_text-[line:111]None:元素:(&apos;xpath&apos;, &apos;//div[@class=&quot;toast-message&quot;]&apos;)的文本内容为:作业名称重复，请重新修改
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="33" name="test_4_add_data_source" time="10.175"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.05：以秒为单位
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;数据源&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:10-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-switch_window-[line:200]切换到最新打开的窗口
+Mon, 03 Jun 2019 19:19:11-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:12-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长1.04：以秒为单位
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;sourceName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;sourceName&quot;]&apos;)中输入文本：自动化测试数据源一
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;ip&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;ip&quot;]&apos;)中输入文本：172.16.12.28
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;port&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;port&quot;]&apos;)中输入文本：3306
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;userName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;userName&quot;]&apos;)中输入文本：root
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;passWord&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;passWord&quot;]&apos;)中输入文本：root
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;dbName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;dbName&quot;]&apos;)中输入文本：echod
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//a[@id=&quot;test-connect&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//a[@id=&quot;test-connect&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:13-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:14-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@data-name=&quot;AUTO_test_01&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:14-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:14-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@data-name=&quot;AUTO_test_01&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:14-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//input[@data-name=&quot;AUTO_test_01&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:14-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:14-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:15-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:15-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:15-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:15-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:16-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:16-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:16-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:16-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:17-INFO-BasePage.py-switch_window-[line:205]切换到第一个窗口
+Mon, 03 Jun 2019 19:19:18-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;保存&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:18-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:18-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;保存&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:18-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;保存&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:18-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-relation-add&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:19-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:19-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-relation-add&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:19-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-relation-add&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:19-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[text()=&quot;更新映射成功&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="39" name="test_5_add_target_source" time="10.179"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.05：以秒为单位
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;目标&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;目标&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;目标&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.04：以秒为单位
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;添加&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:20-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;dataTree_1_switch&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;MySQL&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-db-type&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-switch_window-[line:200]切换到最新打开的窗口
+Mon, 03 Jun 2019 19:19:21-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:22-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长1.04：以秒为单位
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//button[@id=&quot;addSource&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;sourceName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;sourceName&quot;]&apos;)中输入文本：自动化测试目标源一
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;ip&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;ip&quot;]&apos;)中输入文本：172.16.12.28
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;port&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;port&quot;]&apos;)中输入文本：3306
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;userName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;userName&quot;]&apos;)中输入文本：root
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;passWord&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;passWord&quot;]&apos;)中输入文本：root
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;dbName&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//input[@id=&quot;dbName&quot;]&apos;)中输入文本：echod
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//a[@id=&quot;test-connect&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:23-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//form[@name=&quot;sameTOMysqlDriver&quot;]//a[@id=&quot;test-connect&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:24-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:24-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:24-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@data-name=&quot;AUTO_test_02&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:24-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:24-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@data-name=&quot;AUTO_test_02&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:24-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//input[@data-name=&quot;AUTO_test_02&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:25-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:25-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:25-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:25-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:25-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:25-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;下一步&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:26-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:26-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:26-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:26-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;确定&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:27-INFO-BasePage.py-switch_window-[line:205]切换到第一个窗口
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;保存&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.03：以秒为单位
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;保存&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;保存&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-relation-add&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-relation-add&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-relation-add&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:29-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//div[text()=&quot;更新映射成功&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.53：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="46" name="test_6_edit_job_name" time="3.456"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.05：以秒为单位
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@class=&quot;fa fa-edit btn-edit-business&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[@class=&quot;fa fa-edit btn-edit-business&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[@class=&quot;fa fa-edit btn-edit-business&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:30-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@id=&quot;editBus&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.54：以秒为单位
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;editBus&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-clear_input_text-[line:95]None：清除元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;editBus&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//input[@id=&quot;editBus&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-input_text-[line:57]None：在元素(&apos;xpath&apos;, &apos;//input[@id=&quot;editBus&quot;]&apos;)中输入文本：auto_test_2223
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-edit&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-edit&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:31-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2223&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:33-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长2.06：以秒为单位
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="52" name="test_7_delete_job" time="4.790"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:33-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2223&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:33-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.05：以秒为单位
+Mon, 03 Jun 2019 19:19:33-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2223&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:33-INFO-BasePage.py-hover_element-[line:70]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2223&quot;]&apos;)鼠标悬停事件
+Mon, 03 Jun 2019 19:19:33-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@class=&quot;fa fa-trash btn-del-business&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:34-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:34-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[@class=&quot;fa fa-trash btn-del-business&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:34-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[@class=&quot;fa fa-trash btn-del-business&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:36-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-delete&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:36-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:36-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-delete&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:36-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-delete&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2223&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:38-ERROR-BasePage.py-get_Element-[line:48]查找元素失败。
+Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-save_webImgs-[line:141]截屏成功,图片路径为D:\YOYO\auto_web_echo_v1\TestResult\imgs/None_2019-06-03-19-19-38.png
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="58" name="test_8_run_job_local" time="2.740"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+</system-out><system-err>Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@id=&quot;treeDemo_2_span&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;treeDemo_2_span&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;treeDemo_2_span&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:38-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;发布&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.04：以秒为单位
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;发布&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;发布&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;本地运行&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;本地运行&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:39-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;本地运行&quot;]&apos;)点击事件
+</system-err></testcase><testcase classname="TestCase.test_3_designer.TestDesigner" file="TestCase\test_3_designer.py" line="65" name="test_9_run_job_distributed" time="4.783"><system-out>============测试类中每个测试用例都执行一次的前置============
 ============测试类中每个测试用例都执行一次的前置============
 ============整个测试类只执行一次的后置======================
 ============session级别的会话=====结束=====================
-</system-out><system-err>Thu, 30 May 2019 18:08:45-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-hover_element-[line:69]None:元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)鼠标悬停事件
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;删除&quot;][1]&apos;)
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;删除&quot;][1]&apos;)
-Thu, 30 May 2019 18:08:45-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;删除&quot;][1]&apos;)点击事件
-Thu, 30 May 2019 18:08:47-INFO-BasePage.py-wait_eleVisible-[line:30]None：等待元素可见：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-delete&quot;]&apos;)
-Thu, 30 May 2019 18:08:47-INFO-BasePage.py-wait_eleVisible-[line:35]等待时长0.02：以秒为单位
-Thu, 30 May 2019 18:08:47-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-delete&quot;]&apos;)
-Thu, 30 May 2019 18:08:47-INFO-BasePage.py-click_element-[line:83]None:元素：(&apos;xpath&apos;, &apos;//a[@id=&quot;btn-delete&quot;]&apos;)点击事件
-Thu, 30 May 2019 18:08:49-INFO-BasePage.py-get_Element-[line:43]None：查找元素：(&apos;xpath&apos;, &apos; //span[text()=&quot;auto_test_2222&quot;]&apos;)
-Thu, 30 May 2019 18:08:49-ERROR-BasePage.py-get_Element-[line:47]查找元素失败。
-Thu, 30 May 2019 18:08:49-INFO-BasePage.py-save_webImgs-[line:140]截屏成功,图片路径为D:\YOYO\auto_web_echo_v1\TestResult\imgs/None_2019-05-30-18-08-49.png
+</system-out><system-err>Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[@id=&quot;treeDemo_2_span&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;treeDemo_2_span&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[@id=&quot;treeDemo_2_span&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;发布&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.04：以秒为单位
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;发布&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;发布&quot;]&apos;)点击事件
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-wait_eleVisible-[line:31]None：等待元素可见：(&apos;xpath&apos;, &apos;//span[text()=&quot;分布运行&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-wait_eleVisible-[line:36]等待时长0.02：以秒为单位
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-get_Element-[line:44]None：查找元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;分布运行&quot;]&apos;)
+Mon, 03 Jun 2019 19:19:41-INFO-BasePage.py-click_element-[line:84]None:元素：(&apos;xpath&apos;, &apos;//span[text()=&quot;分布运行&quot;]&apos;)点击事件
 </system-err></testcase></testsuite>

@@ -14,13 +14,15 @@ class TestHome:
         # 操作步骤：点击数据源管理——判断是否切换到数据源管理页——退出iframe（退出操作进行优化？？？）
         hp(set_class_home[0]).click_data_source()
         msg = hp(set_class_home[0]).is_data_source()
-
         assert msg==True
     #页面跳转——设计器
     # @pytest.mark.flaky(reruns=5, reruns_delay=1)
+    @pytest.mark.demo1
     def test_home_2_jump_designer(self,set_class_home):
-        #操作步骤
+        #操作步骤:跳转页面，判断
         hp(set_class_home[0]).into_designer()
+        msg = hp(set_class_home[0]).is_jump_designer()
+        assert msg==True
 
 
 

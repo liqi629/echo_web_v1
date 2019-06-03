@@ -6,7 +6,10 @@
 # @Software : PyCharm
 #新建作业，作业名称
 jobname = "auto_test_2222"
+none_job_name=''
 job_new_name = "auto_test_2223"
+
+none_tosat = "业务名称不能为空!"
 sucess_toast = "业务添加成功!"
 same_toast = "作业名称重复，请重新修改"
 
