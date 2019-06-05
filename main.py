@@ -7,5 +7,6 @@
 import pytest
 
 
-pytest.main(["--html=TestResult/reports/report.html","--junitxml=TestResult/reports/report.xml"])
+pytest.main(["--html=TestResult/reports/report.html","--self-contained-html","--junitxml=TestResult/reports/report.xml"])
 # pytest.main(["-m=smoke","--html=TestResult/reports/report.html","--junitxml=TestResult/reports/report.xml"])
+# pytest.main(["-m=smoke","--html=TestResult/reports/report.html","--self-contained-html","--junitxml=TestResult/reports/report.xml"])
