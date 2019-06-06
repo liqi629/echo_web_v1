@@ -22,11 +22,13 @@ class TestHome:
         msg = hp(set_class_home[0]).is_operation_system()
         assert msg == True
     #添加一个业务系统
+    @pytest.mark.demo11
     def test_3_add_operation_system(self,set_class_home):
         hp(set_class_home[0]).add_operation_system(os["zh_name"],os["code"],os["short_zn_name"],os["en_name"],os["short_en_name"],os["sys_remark"],os["sys_version"],os["dept"],os["contacter"],os["mobile"],os["email"])
         msg = hp(set_class_home[0]).is_add_operation_system()
         assert msg == True
     #删除一个业务系统
+    @pytest.mark.demo11
     def test_3_delete_operation_system(self, set_class_home):
         hp(set_class_home[0]).delete_operation_system()
         msg = hp(set_class_home[0]).is_add_operation_system()

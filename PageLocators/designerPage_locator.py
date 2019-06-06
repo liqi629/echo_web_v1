@@ -6,7 +6,7 @@
 # @Software : PyCharm
 from selenium.webdriver.common.by import By
 class DesignerPageLocator:
-
+    #按钮====================================================================================================================
     #新建作业+号
     add_job=(By.XPATH,'//img[@id="addBgBac"]')
     #作业名称输入框//input[@id="bisName"]
@@ -17,8 +17,6 @@ class DesignerPageLocator:
     edit_name_button = (By.XPATH,'//a[@id="btn-edit"]')
     #新建作业确认按钮
     job_button = (By.XPATH, '//a[@id="btnBusinessAdd"]')
-    #新建作业成功/名称重复toast提示//div[@class="toast-message"]
-    job_toast = (By.XPATH, '//div[@class="toast-message"]')
     #新建完成的作业，列表中的定位 //span[text()="auto_test_2"]
     job_list_new = (By.XPATH, ' //span[text()="auto_test_2222"]')
     # 编辑名称后的作业，列表中的定位 //span[text()="auto_test_3"]
@@ -29,7 +27,6 @@ class DesignerPageLocator:
     delete_job_button = (By.XPATH, '//span[@class="fa fa-trash btn-del-business"]')
     #删除作业弹窗 的删除按钮
     dialog_delete_button = (By.XPATH, '//a[@id="btn-delete"]')
-
     #数据源
     data_source = (By.XPATH, '//span[text()="数据源"]')
     #添加按钮
@@ -38,14 +35,34 @@ class DesignerPageLocator:
     save_button = (By.XPATH,'//span[text()="保存"]')
     #发布按钮
     publish_button = (By.XPATH,'//span[text()="发布"]')
+    #取消发布按钮
+    unpublish_button = (By.XPATH,'//span[text()="取消发布"]')
     #本地运行按钮
     run_locally = (By.XPATH,'//span[text()="本地运行"]')
-    #本不是运行按钮
+    #分布式运行按钮
     run_distributed = (By.XPATH,'//span[text()="分布运行"]')
+    #删除节点//a[text()="删除节点"]
+    delete_node = (By.XPATH,'//a[text()="删除节点"]')
+    #TOAST=================================================================================================
+    #新建作业成功/名称重复toast提示//div[@class="toast-message"]，下面的toast 共用
+    job_toast = (By.XPATH, '//div[@class="toast-message"]')
+    #发布成功toast
+    toast_pub_success = (By.XPATH,'')
+    #取消发布成功toast
+    toast_pub_cancel = (By.XPATH, '')
+    #重复发布tosat
+    toast_pub_re = (By.XPATH, '')
+    #作业窗口=========================================================================================
+    #作业：not_delete
+    select_job_mysql = (By.XPATH,'//div[@class="pull-left session"]//span[text()="not_delete"]')
+    #作业：MySQL_text
+    select_job_text = (By.XPATH, ' // li[text() = "MySQL_text"]')
 
     #作业========================================================================
     #作业：MySQL_text
     MySQL_text = (By.XPATH,'//ul[@class="level0 "]//span[text()="MySQL_text"]')
+    #作业：MySQL_text目标文件源
+    text_name = (By.XPATH,'//span[text()="自动化测试目标文件源一"]')
     #作业：not_delete job
     not_delete_job = (By.XPATH, '//span[@id="treeDemo_2_span"]')
     # 作业========================================================================

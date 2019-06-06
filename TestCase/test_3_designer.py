@@ -13,15 +13,16 @@ from Common.remote import Remote
 from Common import dir_config
 from Common.do_file import DoFile
 import pytest
-@pytest.mark.usefixtures("set_class_home")#整个套件setupClass
-@pytest.mark.usefixtures("case_designer")#整个套件setupClass
+@pytest.mark.usefixtures("set_class_home")#整个类的前置
+@pytest.mark.usefixtures("case_designer")#测试用例的前置
 class TestDesigner:
     #空名称新增
     def test_1_none_name(self,set_class_home):
         DesignerPage(set_class_home[0]).none_job_name(dd.none_job_name)
         msg = DesignerPage(set_class_home[0]).toast_text()
-        assert dd.none_tosat ==msg
+        assert msg==dd.none_tosat
     #新建作业
+    @pytest.mark.flaky(reruns=1, reruns_delay=10)
     def test_2_add_job(self,set_class_home):
         #操作步骤，新建作业，获取toast，断言
         DesignerPage(set_class_home[0]).add_job(dd.jobname)
@@ -32,27 +33,26 @@ class TestDesigner:
         # 操作步骤，新建重复名称作业，获取toast，断言
         DesignerPage(set_class_home[0]).add_job(dd.jobname)
         msg = DesignerPage(set_class_home[0]).toast_text()
-        assert msg == dd.same_toast
+        assert msg == dd.toast_job_same
     #添加数据源-mysql。关联：需要有作业
     def test_4_add_data_source(self,set_class_home):
         #操作步骤：选择新建的作业，点击数据源，点击添加，填写信息，测试连接，下一步。。。完成
-        DesignerPage(set_class_home[0]).select_job()
         DesignerPage(set_class_home[0]).add_source(ss["source_name"],ss["ip"],ss["port"],ss["user_name"],ss["pass_word"],ss["db_name"])
         assert DesignerPage(set_class_home[0]).is_save_map()==True
     #添加目标-mysql。关联：需要有作业
     def test_5_add_target_source(self,set_class_home):
         #操作步骤：选择新建的作业，点击目标，进行后续添加
-        DesignerPage(set_class_home[0]).select_job()
         DesignerPage(set_class_home[0]).add_target_source(td["source_name"],td["ip"],td["port"],td["user_name"],td["pass_word"],td["db_name"])
         assert DesignerPage(set_class_home[0]).is_save_map()==True
 
     #编辑作业名称。关联：需要有作业
+    @pytest.mark.flaky(reruns=1, reruns_delay=10)
     def test_6_edit_job_name(self,set_class_home):
         #操作步骤：选择作业，编辑名称
-        DesignerPage(set_class_home[0]).select_job()
         DesignerPage(set_class_home[0]).edit_job(dd.job_new_name)
         assert DesignerPage(set_class_home[0]).is_new_name()==True
     #删除新建的作业。关联：需要有作业
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)#失败后5s，重新运行1次
     def test_7_delete_job(self,set_class_home):
         #操作步骤：删除作业，判断是否还存在
         DesignerPage(set_class_home[0]).delete_job()
@@ -90,7 +90,28 @@ class TestDesigner:
         mysql_name = DoMysql().select_table_1()
         assert DoFile().get_file_name()==mysql_name[0][1]
 
+    #切换作业窗口
+    def test_12_switch_job(self,set_class_home):
+        DesignerPage(set_class_home[0]).switch_job()
+        assert DesignerPage(set_class_home[0]).is_switch_job()==True
 
-
-    #
-
+    #取消发布
+    @pytest.mark.flaky(reruns=1, reruns_delay=10)
+    def test_13_unpub(self,set_class_home):
+        #操作步骤
+        DesignerPage(set_class_home[0]).unpublish()
+        msg = DesignerPage(set_class_home[0]).toast_text()
+        assert msg == dd.toast_pub_cancel
+    #发布作业
+    def test_14_pub(self,set_class_home):
+        #操作步骤
+        DesignerPage(set_class_home[0]).publish()
+        msg = DesignerPage(set_class_home[0]).toast_text()
+        assert msg == dd.toast_pubing
+    #重复发布
+    @pytest.mark.flaky(reruns=1, reruns_delay=10)
+    def test_15_same_pub(self,set_class_home):
+        # 操作步骤
+        DesignerPage(set_class_home[0]).publish()
+        msg = DesignerPage(set_class_home[0]).toast_text()
+        assert msg == dd.toast_pub_re

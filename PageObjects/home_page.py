@@ -109,7 +109,7 @@ class HomePage(BasePage):
     #判断新增的业务系统是否存在
     def is_add_operation_system(self):
         try:
-            self.wait_eleVisible(loc.add_sys_name)
+            self.wait_eleVisible(loc.add_sys_name,timeout=3)
             return True
         except:
             return False

@@ -11,7 +11,15 @@ job_new_name = "auto_test_2223"
 
 none_tosat = "业务名称不能为空!"
 sucess_toast = "业务添加成功!"
-same_toast = "作业名称重复，请重新修改"
+toast_job_same = "作业名称重复，请重新修改"
+#作业发布中toast
+toast_pubing = "已提交发布请求,请稍后..."
+#发布成功toast
+toast_pub_success = "发布成功"
+#取消发布成功toast
+toast_pub_cancel = "取消发布成功"
+#重复发布tosat
+toast_pub_re = "该作业已经发布，请取消发布之后在发布."
 
 #远程服务器信息
 remote_ip='172.16.12.28'

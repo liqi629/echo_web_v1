@@ -48,12 +48,13 @@ class DesignerPage(BasePage):
         #加入等待toast可见，否则会报错，时间太快获取不到toast
         self.wait_eleVisible(loc.job_toast)
         return self.get_text(loc.job_toast)
-    #点击选择新建的作业
-    def select_job(self):
-        self.wait_eleVisible(loc.job_list_new)
-        self.click_element(loc.job_list_new)
+    #点击选择作业
+    def select_job(self,loc):
+        self.wait_eleVisible(loc)
+        self.click_element(loc)
     #编辑作业名称
     def edit_job(self,newname):
+        self.select_job(loc.job_list_new)
         self.wait_eleVisible(loc.job_list_new)
         self.click_element(loc.job_list_new)
         self.wait_eleVisible(loc.edit_job_button)
@@ -86,7 +87,7 @@ class DesignerPage(BasePage):
     #判断新建的作业是否被删除
     def is_delete_job(self):
         try:
-            self.get_Element(loc.job_list_new_1)
+            self.wait_eleVisible(loc.job_list_new_1,timeout=3)
             return False
         except:
             return True
@@ -182,6 +183,7 @@ class DesignerPage(BasePage):
         self.click_element(loc.map_config_button)
     #添加数据源
     def add_source(self,source_name,ip,port,user_name,pass_word,db_name):
+        self.select_job(loc.job_list_new)
         # 获取窗口句柄，要放在新窗口出现之前
         current_handles = self.current_handles()
         #点击数据源
@@ -268,6 +270,7 @@ class DesignerPage(BasePage):
             False
     #添加目标源mysql
     def add_target_source(self,source_name,ip,port,user_name,pass_word,db_name):
+        self.select_job(loc.job_list_new)
         # 获取窗口句柄，要放在新窗口出现之前
         current_handles = self.current_handles()
         # 点击目标
@@ -344,7 +347,7 @@ class DesignerPage(BasePage):
             return True
         except:
             False
-    #运行,本地还是分布式运行 通过传参
+    #运行mysql到mysql的作业,本地还是分布式运行 通过传参
     def run_job(self,method):
         self.wait_eleVisible(loc.not_delete_job)
         self.click_element(loc.not_delete_job)
@@ -358,6 +361,7 @@ class DesignerPage(BasePage):
             self.wait_eleVisible(loc.run_distributed)
             self.click_element(loc.run_distributed)
             time.sleep(5)
+    #运行mysql转换文本的作业
     def run_job_MySQL_text(self,method):
         self.wait_eleVisible(loc.MySQL_text)
         self.click_element(loc.MySQL_text)
@@ -371,7 +375,36 @@ class DesignerPage(BasePage):
             self.wait_eleVisible(loc.run_distributed)
             self.click_element(loc.run_distributed)
             time.sleep(5)
-    #分布式运行
+    #切换作业
+    def switch_job(self):
+        self.wait_eleVisible(loc.select_job_mysql)
+        self.click_element(loc.select_job_mysql)
+        self.wait_eleVisible(loc.select_job_text)
+        self.click_element(loc.select_job_text)
+    #判断作业是否切换成功
+    def is_switch_job(self):
+        try:
+            self.wait_eleVisible(loc.text_name)
+            return True
+        except:
+            False
+    #取消发布
+    def unpublish(self):
+        self.select_job(loc.not_delete_job)
+        self.wait_eleVisible(loc.unpublish_button)
+        self.click_element(loc.unpublish_button)
+    #发布作业
+    def publish(self):
+        self.select_job(loc.not_delete_job)
+        self.wait_eleVisible(loc.publish_button)
+        self.click_element(loc.publish_button)
+    #判断取消的toast
+    def is_unpublish(self):
+        pass
+
+
+
+#分布式运行
     #查询源数据
     #删除目标源一的 AUTO_test_02内容
 
