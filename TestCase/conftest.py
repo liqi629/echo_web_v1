@@ -9,7 +9,7 @@ from selenium import webdriver
 from TestDatas import Common_Datas as CD
 from PageObjects.login_page import LoginPage
 from TestDatas import login_datas as ld
-from Common.login import login
+
 driver=None
 
 @pytest.fixture(scope="session",autouse=True)

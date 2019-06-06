@@ -32,6 +32,8 @@ screenshot_dir=os.path.join(base_dir,'TestResult','imgs')
 
 #数据库配置文件路径
 db_config_path=os.path.join(base_dir,'config','db.config')
+#从远程服务器下载文件存储路径
+ftp_auto_text_01 = os.path.join(base_dir,'TestDatas','local_auto_text_01')
 
 
 if __name__ == '__main__':
@@ -39,3 +41,4 @@ if __name__ == '__main__':
     print(test_case_path)
     print(report_path)
     print(logs_dir)
+    print(ftp_auto_text_01)

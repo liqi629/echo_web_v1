@@ -6,6 +6,7 @@
 # @Software : PyCharm
 import pymysql
 class DoMysql:
+    #查询功能
     def do_mysql(self,sql):
         # 1：根据登录信息  去登录数据库 产生一个数据库连接
         db = pymysql.connect(host='172.16.12.28',
@@ -25,7 +26,7 @@ class DoMysql:
         cursor.close()
         db.close()
         return res
-    #删除数据表的内容
+    #删除数据表的内容AUTO_test_02
     def deletc_data(self,):
         db = pymysql.connect(host='172.16.12.28',
                              port=3306,
@@ -38,9 +39,11 @@ class DoMysql:
         db.commit()
         cursor.close()
         db.close()
+    #查询AUTO_test_01
     def select_table_1(self):
         return self.do_mysql('select * from AUTO_test_01')
 
+    # 查询AUTO_test_02
     def select_table_2(self):
 
         return self.do_mysql('select * from AUTO_test_02')

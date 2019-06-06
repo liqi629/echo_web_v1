@@ -26,7 +26,15 @@ class HomePage(BasePage):
             return True
         except:
             return False
-
+        self
+    # 判断是否切换到应用管理/业务系统管理页
+    def is_operation_system(self):
+        try:
+            self.switch_iframe(loc.iframe_data_source_manager)
+            self.wait_eleVisible(loc.page_operation_system)
+            return True
+        except:
+            return False
     # 判断是否切打开了设计器页面
     def is_jump_designer(self):
         try:
@@ -53,9 +61,67 @@ class HomePage(BasePage):
         time.sleep(1)  # 加硬等待，增强稳定性
 
     #点击数据源管理
-    def click_data_source(self):
+    def into_data_source(self):
         #等待元素【业务管理】可见，鼠标悬浮，等待【数据源管理】
         self.wait_eleVisible(loc.business_management)
         self.hover_element(loc.business_management)
         self.wait_eleVisible(loc.data_source_manager)
         self.click_element(loc.data_source_manager)
+    #点击应用管理/业务系统管理
+    def into_operation_system(self):
+        self.wait_eleVisible(loc.business_management)
+        self.hover_element(loc.business_management)
+        self.wait_eleVisible(loc.operation_system)
+        self.click_element(loc.operation_system)
+    #添加业务系统
+    def add_operation_system(self,zh_name,code,short_zn_name,en_name,short_en_name,sys_remark,sys_version,dept,contacter,mobile,email):
+        #调用进入业务系统管理页面的函数
+        self.into_operation_system()
+        #切入iframe页面进行操作
+        self.switch_iframe(loc.iframe_data_source_manager)
+        #点击添加按钮：输入信息
+        self.wait_eleVisible(loc.add_button)
+        self.click_element(loc.add_button)
+        self.wait_eleVisible(loc.zh_name)
+        self.input_text(loc.zh_name,zh_name)
+        self.wait_eleVisible(loc.code)
+        self.input_text(loc.code, code)
+        self.wait_eleVisible(loc.short_zn_name)
+        self.input_text(loc.short_zn_name, short_zn_name)
+        self.wait_eleVisible(loc.en_name)
+        self.input_text(loc.en_name, en_name)
+        self.wait_eleVisible(loc.short_en_name)
+        self.input_text(loc.short_en_name, short_en_name)
+        self.wait_eleVisible(loc.sys_remark)
+        self.input_text(loc.sys_remark, sys_remark)
+        self.wait_eleVisible(loc.sys_version)
+        self.input_text(loc.sys_version, sys_version)
+        self.wait_eleVisible(loc.dept)
+        self.input_text(loc.dept, dept)
+        self.wait_eleVisible(loc.contacter)
+        self.input_text(loc.contacter, contacter)
+        self.wait_eleVisible(loc.mobile)
+        self.input_text(loc.mobile, mobile)
+        self.wait_eleVisible(loc.email)
+        self.input_text(loc.email, email)
+        self.wait_eleVisible(loc.ok_button)
+        self.click_element(loc.ok_button)
+    #判断新增的业务系统是否存在
+    def is_add_operation_system(self):
+        try:
+            self.wait_eleVisible(loc.add_sys_name)
+            return True
+        except:
+            return False
+    #删除一个业务系统
+    def delete_operation_system(self):
+        # 调用进入业务系统管理页面的函数
+        self.into_operation_system()
+        # 切入iframe页面进行操作
+        self.switch_iframe(loc.iframe_data_source_manager)
+        self.wait_eleVisible(loc.delete_new_sys_1_button)
+        self.click_element(loc.delete_new_sys_1_button)
+        time.sleep(2)
+        self.wait_eleVisible(loc.delete_button)
+        self.click_element(loc.delete_button)
+        time.sleep(2)

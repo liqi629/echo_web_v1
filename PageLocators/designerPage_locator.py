@@ -6,8 +6,7 @@
 # @Software : PyCharm
 from selenium.webdriver.common.by import By
 class DesignerPageLocator:
-    #not_delete job
-    not_delete_job = (By.XPATH,'//span[@id="treeDemo_2_span"]')
+
     #新建作业+号
     add_job=(By.XPATH,'//img[@id="addBgBac"]')
     #作业名称输入框//input[@id="bisName"]
@@ -44,6 +43,12 @@ class DesignerPageLocator:
     #本不是运行按钮
     run_distributed = (By.XPATH,'//span[text()="分布运行"]')
 
+    #作业========================================================================
+    #作业：MySQL_text
+    MySQL_text = (By.XPATH,'//ul[@class="level0 "]//span[text()="MySQL_text"]')
+    #作业：not_delete job
+    not_delete_job = (By.XPATH, '//span[@id="treeDemo_2_span"]')
+    # 作业========================================================================
 
 
     #数据库，树加号，展开作用//span[@id="dataTree_1_switch"]

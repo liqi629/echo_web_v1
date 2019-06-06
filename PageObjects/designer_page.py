@@ -6,6 +6,7 @@
 # @Software : PyCharm
 from Common.BasePage import BasePage
 from PageLocators.designerPage_locator import DesignerPageLocator as loc
+
 from Common.do_mysql import DoMysql
 import logging
 from Common import logger
@@ -42,9 +43,7 @@ class DesignerPage(BasePage):
         self.input_text(loc.job_name_input,jobname)
         #点击确定按钮
         self.click_element(loc.job_button)
-
     #获取新建作业成功的(名称重复的的)toast，文本
-
     def toast_text(self):
         #加入等待toast可见，否则会报错，时间太快获取不到toast
         self.wait_eleVisible(loc.job_toast)
@@ -70,9 +69,6 @@ class DesignerPage(BasePage):
             return True
         except:
             False
-
-
-
     # 删除新建的作业
     def delete_job(self):
         #等待新建作业可见
@@ -231,6 +227,7 @@ class DesignerPage(BasePage):
         pass
         #点击测试连接
         self.click_element(loc.test_connect)
+        time.sleep(1)  # 加硬等待，增强稳定性
         # return self.get_text(loc.test_msg)
         #点击下一步
         self.click_element(loc.next_step)
@@ -316,6 +313,7 @@ class DesignerPage(BasePage):
         pass
         # 点击测试连接
         self.click_element(loc.test_connect)
+        time.sleep(1)  # 加硬等待，增强稳定性
         # return self.get_text(loc.test_msg)
         # 点击下一步
         self.click_element(loc.next_step)
@@ -355,15 +353,28 @@ class DesignerPage(BasePage):
         if method=='local':
             self.wait_eleVisible(loc.run_locally)
             self.click_element(loc.run_locally)
-            time.sleep(2)
+            time.sleep(5)
         else:
             self.wait_eleVisible(loc.run_distributed)
             self.click_element(loc.run_distributed)
-            time.sleep(2)
+            time.sleep(5)
+    def run_job_MySQL_text(self,method):
+        self.wait_eleVisible(loc.MySQL_text)
+        self.click_element(loc.MySQL_text)
+        self.wait_eleVisible(loc.publish_button)
+        self.click_element(loc.publish_button)
+        if method == 'local':
+            self.wait_eleVisible(loc.run_locally)
+            self.click_element(loc.run_locally)
+            time.sleep(5)
+        else:
+            self.wait_eleVisible(loc.run_distributed)
+            self.click_element(loc.run_distributed)
+            time.sleep(5)
     #分布式运行
-
     #查询源数据
-
     #删除目标源一的 AUTO_test_02内容
+
+
 
 
