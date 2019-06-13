@@ -5,14 +5,11 @@
 # @File     : test_1_login.py
 # @Software : PyCharm
 from TestDatas import login_datas as ld
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
 from PageObjects.home_page import HomePage
-from PageLocators.homePage_locator import HomePageLocator
 import time
 import pytest
-@pytest.mark.usefixtures("set_class")#整个套件setupClass
-@pytest.mark.usefixtures("case_login")#
+@pytest.mark.usefixtures("set_class")
+@pytest.mark.usefixtures("case_login")
 class TestLogin:
     #异常场景：密码错误、用户名错误
     @pytest.mark.parametrize("data",ld.wrong_data)#测试数据分离，有几组数据，运行几次

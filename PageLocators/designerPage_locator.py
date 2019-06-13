@@ -43,6 +43,8 @@ class DesignerPageLocator:
     run_distributed = (By.XPATH,'//span[text()="分布运行"]')
     #删除节点//a[text()="删除节点"]
     delete_node = (By.XPATH,'//a[text()="删除节点"]')
+    #工作流 运行按钮
+    run_work_flow = (By.XPATH,'//span[text()="运行"]')
     #TOAST=================================================================================================
     #新建作业成功/名称重复toast提示//div[@class="toast-message"]，下面的toast 共用
     job_toast = (By.XPATH, '//div[@class="toast-message"]')
@@ -64,7 +66,7 @@ class DesignerPageLocator:
     #作业：MySQL_text目标文件源
     text_name = (By.XPATH,'//span[text()="自动化测试目标文件源一"]')
     #作业：not_delete job
-    not_delete_job = (By.XPATH, '//span[@id="treeDemo_2_span"]')
+    not_delete_job = (By.XPATH, '//ul[@id="treeDemo"]//span[text()="not_delete"]')
     # 作业========================================================================
 
 
@@ -82,8 +84,6 @@ class DesignerPageLocator:
     table_config = (By.XPATH,'//span[text()="多表配置"]')
     #多元配置弹出窗-确定按钮//a[@class="btn btn-primary btn-config-confirm"]
     config_button = (By.XPATH,'//a[@class="btn btn-primary btn-config-confirm"]')
-    #表的连线
-    table_line = (By.CSS_SELECTOR,'html body div.container-fluid div.row div#skin_content.col-md-12.col-sm-12.col-lg-12.col-xs-12 div.content div#body div#skin-panel.panel.panel-default div.panel-body div#draw.draw-div div#graphContainer svg g g g path')
 
 
 
@@ -140,3 +140,26 @@ class DesignerPageLocator:
     source_title = (By.XPATH,'//span[text()="自动化测试数据源一"]')
     # 添加成功后的目标源
     out_source_title = (By.XPATH, '//span[text()="自动化测试目标源一"]')
+
+
+    #工作流==================================================================================================
+    #作业 not_delete的工作流
+    work_flow = (By.XPATH,'//span[text()="工作流"]')
+    #添加工作流按钮
+    add_work_folw_btn = (By.XPATH,'//ul[@id="treeDemo_1_ul"]//span[text()="添加"]')
+    #工作流脚本完成的信息 捕捉(几行日志的定位一样)
+    work_flow_finished_1 = (By.XPATH,'//span[contains(@class,"loading")][1]')
+    # 工作流脚本完成的信息 捕捉(几行日志的定位一样)
+    work_flow_finished_2 = (By.XPATH, '//span[contains(@class,"loading")][2]')
+    # 工作流脚本完成的信息 捕捉(几行日志的定位一样)
+    work_flow_finished_3 = (By.XPATH, '//span[contains(@class,"loading")][3]')
+    #工作流名字输入框
+    work_flow_input = (By.XPATH,'//input[@id="workflow-name"]')
+    #确定按钮
+    btn_workflow_add = (By.XPATH,'//a[@class="btn btn-primary btn-workflow-add"]')
+    #新增的工作流
+    new_work_flow = (By.XPATH,'//span[text()="test_work_flow_01"]')
+    #工作流删除test_work_flow_01
+    delete_work_flow = (By.XPATH,'//span[text()="test_work_flow_01"]//parent::a//span[text()="删除"]')
+    #工作流删除dialog  删除按钮//a[@id="btn-workflow-delete"]
+    btn_workflow_delete = (By.XPATH,'//a[@id="btn-workflow-delete"]')

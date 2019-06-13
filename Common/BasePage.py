@@ -8,6 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains as AC
 from Common import dir_config
+from selenium.webdriver.support.ui import Select
 import logging
 from Common import logger
 import time
@@ -213,3 +214,18 @@ class BasePage:
             logging.error("切换失败")
             self.save_webImgs(model)
             raise
+    #select操作
+    def select(self,loc):
+        # 等待Select出现
+        self.wait_eleVisible(loc)
+        # 找到select元素
+        select_ele = self.get_Element(loc)
+        # 初始化select类
+        s=Select(select_ele)
+        return s
+        # # 1、下标
+        # s.select_by_index()
+        # # 2、value属性
+        # s.select_by_value()
+        # # 3、文本内容
+        # s.select_by_visible_text()

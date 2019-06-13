@@ -13,7 +13,7 @@ none_tosat = "业务名称不能为空!"
 sucess_toast = "业务添加成功!"
 toast_job_same = "作业名称重复，请重新修改"
 #作业发布中toast
-toast_pubing = "已提交发布请求,请稍后..."
+toast_pubing = ["已提交发布请求,请稍后...","发布成功"]
 #发布成功toast
 toast_pub_success = "发布成功"
 #取消发布成功toast
@@ -51,3 +51,11 @@ target_data ={
     "pass_word":"root",
     "db_name":"echod"
 }
+
+
+#新建工作流名字
+work_flow_name = "test_work_flow_01"
+#工作流名称重复
+same_flow_name = "该名称已存在!"
+#工作流页面url
+work_flow_url = 'http://172.16.12.28:18080/echod_manager/V2/page/workflow/workflow.jsp?id=38'

@@ -43,11 +43,18 @@ class DesignerPage(BasePage):
         self.input_text(loc.job_name_input,jobname)
         #点击确定按钮
         self.click_element(loc.job_button)
-    #获取新建作业成功的(名称重复的的)toast，文本
+    #获取新建作业成功的(名称重复的的)toast，文本;工作流名称重复
     def toast_text(self):
         #加入等待toast可见，否则会报错，时间太快获取不到toast
         self.wait_eleVisible(loc.job_toast)
         return self.get_text(loc.job_toast)
+    #判断toast是否存在
+    def is_toast(self):
+        try:
+            self.wait_eleVisible(loc.job_toast)
+            return True
+        except:
+            False
     #点击选择作业
     def select_job(self,loc):
         self.wait_eleVisible(loc)
@@ -229,7 +236,8 @@ class DesignerPage(BasePage):
         pass
         #点击测试连接
         self.click_element(loc.test_connect)
-        time.sleep(1)  # 加硬等待，增强稳定性
+        #等待msg 连接成功
+        self.wait_eleVisible(loc.test_msg)
         # return self.get_text(loc.test_msg)
         #点击下一步
         self.click_element(loc.next_step)
@@ -316,7 +324,8 @@ class DesignerPage(BasePage):
         pass
         # 点击测试连接
         self.click_element(loc.test_connect)
-        time.sleep(1)  # 加硬等待，增强稳定性
+        #等待msg 连接成功
+        self.wait_eleVisible(loc.test_msg)
         # return self.get_text(loc.test_msg)
         # 点击下一步
         self.click_element(loc.next_step)
@@ -353,6 +362,7 @@ class DesignerPage(BasePage):
         self.click_element(loc.not_delete_job)
         self.wait_eleVisible(loc.publish_button)
         self.click_element(loc.publish_button)
+        time.sleep(2)
         if method=='local':
             self.wait_eleVisible(loc.run_locally)
             self.click_element(loc.run_locally)
@@ -367,6 +377,7 @@ class DesignerPage(BasePage):
         self.click_element(loc.MySQL_text)
         self.wait_eleVisible(loc.publish_button)
         self.click_element(loc.publish_button)
+        time.sleep(2)
         if method == 'local':
             self.wait_eleVisible(loc.run_locally)
             self.click_element(loc.run_locally)
@@ -401,6 +412,70 @@ class DesignerPage(BasePage):
     #判断取消的toast
     def is_unpublish(self):
         pass
+
+    #运行工作流
+    def run_work_flow(self):
+        self.wait_eleVisible(loc.run_work_flow)
+        self.click_element(loc.run_work_flow)
+    #等待工作流完成
+    def is_work_flow(self):
+        try:
+            self.wait_eleVisible(loc.work_flow_finished_1)
+            res_1 = self.get_text(loc.work_flow_finished_1)
+            self.wait_eleVisible(loc.work_flow_finished_2)
+            res_2 = self.get_text(loc.work_flow_finished_2)
+            self.wait_eleVisible(loc.work_flow_finished_3)
+            res_3 = self.get_text(loc.work_flow_finished_3)
+            res=res_1+res_2+res_3
+            logging.info("获取的文本是："+res)
+            if "helloworld" in res:
+                return True
+        except:
+            logging.error("没有运行成功！")
+            return False
+    #新建工作流
+    def add_work_flow(self,work_flow_name):
+        self.select_job(loc.not_delete_job)
+        self.wait_eleVisible(loc.work_flow)
+        # self.click_element(loc.work_flow)
+        self.hover_element(loc.work_flow)
+        self.wait_eleVisible(loc.add_work_folw_btn)
+        self.click_element(loc.add_work_folw_btn)
+        self.wait_eleVisible(loc.work_flow_input)
+        self.input_text(loc.work_flow_input,work_flow_name)
+        self.click_element(loc.btn_workflow_add)
+    #判断新增的工作流是否存在
+    def is_new_work_flow(self):
+        try:
+            #dialog还没有消失，导致点击事件失败，加入应等待增强稳定性
+            time.sleep(1)
+            self.wait_eleVisible(loc.work_flow)
+            self.click_element(loc.work_flow)
+            self.wait_eleVisible(loc.new_work_flow)
+            return True
+        except:
+            False
+    #删除新增的工作流
+    def delete_work_flow(self):
+        self.select_job(loc.not_delete_job)
+        #点击工作流 展开
+        self.wait_eleVisible(loc.work_flow)
+        self.click_element(loc.work_flow)
+        #鼠标悬浮在新增的工作流上
+        self.hover_element(loc.new_work_flow)
+        self.wait_eleVisible(loc.delete_work_flow)
+        self.click_element(loc.delete_work_flow)
+        self.wait_eleVisible(loc.btn_workflow_delete)
+        self.click_element(loc.btn_workflow_delete)
+    #判断是否删除成功
+    def is_delete_work_flow(self):
+        try:
+            self.wait_eleVisible(loc.new_work_flow,timeout=2)
+            return True
+        except:
+            False
+
+
 
 
 

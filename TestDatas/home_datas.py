@@ -19,3 +19,15 @@ operation_system ={
     "email":"li.qi@yoyosys.com.cn"
 
 }
+#脚本名称、绝对路径、脚本内容、执行机ip
+script = {
+    "name":"auto_script_01.sh",
+    "AP": "/opt/auto_script_01.sh",
+    "scriptType": "其他",
+    "dbType": "其他",
+    "content": '#!/usr/bin/bash\
+            echo "hello me"\
+            echo>/root/testfile_01.txt',
+    "ip": "172.16.12.28"
+
+}
